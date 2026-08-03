@@ -1,0 +1,26 @@
+{
+  "name": "@giladbarnea/pi-how-much-ctx-have",
+  "version": "0.0.0",
+  "description": "Give Pi agents a tool that reports current context-window usage.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-agent",
+    "pi-coding-agent",
+    "context-window"
+  ],
+  "author": "Gilad Barnea",
+  "license": "MIT",
+  "files": [
+    "index.ts"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
