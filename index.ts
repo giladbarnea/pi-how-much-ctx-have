@@ -9,7 +9,7 @@ function humanizeTokenCount(tokenCount: number): string {
 const howMuchContextTool = defineTool({
   name: "how_much_context",
   label: "How Much Context",
-  description: "Report how much of the current context window is used.",
+  description: "Query how much of the your current context window is used and how much is left. Your context window is your runway. You would want to adapt if you’re running out of it.",
   parameters: Type.Object({}),
 
   async execute(_toolCallId, _parameters, _signal, _onUpdate, ctx) {
